@@ -1,0 +1,16 @@
+.navbar{
+    border-style: solid;
+    display: flex;
+    padding-left:50px ;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(91, 133, 53);
+    /* flex-direction: column; */
+}
+
+.nav-item{
+    font-size: 30px;
+    padding-left:50px;
+}
+
