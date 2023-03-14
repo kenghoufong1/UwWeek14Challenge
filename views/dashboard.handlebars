@@ -1,0 +1,20 @@
+<label for="blogcontents" id='blogcontentbox'>blogcontent:</label>
+<input type="text" id="blogcontent">
+
+<div class='addblog'>
+    <button id="add-button">Add a Blog!</button>
+</div>
+
+<div class="oldblog">
+    <div>
+        <h2>Here are your old blogs</h2>
+        {{#each data as |data|}}
+    <div class="blog-display">
+        <li >{{blogcontent}}</li>
+        <button type="button" data-id="{{id}}" class="deletebutton">Delete</button>
+    </div>
+    {{/each}}
+    
+</div>
+
+<script src="./add-blog.js"></script>

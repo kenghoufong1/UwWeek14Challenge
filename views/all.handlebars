@@ -1,33 +1,15 @@
 <div class="menu-container">
-  <div class="card-header col-md-10">
+  <div class="card-header col-md-12">
     <h2>
-      &#127869 Current Menu
+      All Blogs
     </h2>
-  </div>
-    <div>
-      <ol>
-        <li>
-          French Bread with Brie Cheese
-        </li>
-        <li>
-          Cheese Plate with Spanish Chorizo
-        </li>
-        <li>
-          Fish Tacos
-        </li>
-        <li>
-          Tropical Fruit Salad
-        </li>
-        <li>
-          Pork Gyoza
-        </li>
-        <li>
-          Yebeg Tibs with Injera Bread
-        </li>
-        <li>
-          Cape Malay Curry
-        </li>
-      </ol>
+    {{#each blogs as |blog|}}
+    <div class = 'blogstory'>
+      <h3>{{blog.user.username}} </h3> 
+      <h5>posted</h5>
+      <p>{{blog.blogcontent}}</p>
     </div>
+    {{/each}}
+    <p>Login now to add a blog!</p>
   </div>
-</div>
+  

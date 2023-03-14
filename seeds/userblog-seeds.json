@@ -1,0 +1,14 @@
+[
+    {
+        "user_id": "2",
+        "blogcontent": "nice weather"
+    },
+    {
+        "user_id": "1",
+        "blogcontent": "I love CS"
+    },
+    {
+        "user_id": "1",
+        "blogcontent": "IDK"
+    }
+]
